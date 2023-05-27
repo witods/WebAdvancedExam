@@ -1,0 +1,27 @@
+{
+  "title": "MENTAL Data",
+  "period": "Second semester",
+  "recordedMonths": ["February", "March", "April", "May", "June", "July", "August"],
+  "recordedData": [
+    {
+        "student": "Mike Derycke",
+        "values": [1,2,3,4,5,6,7],
+        "profile": "eastereggsgalore74m35.json"
+    },
+    {
+        "student": "Wim Hambrouck",
+        "values": [7,6,5,4,3,2,1],
+        "profile": "primadata758493.json"
+    },
+    {
+        "student": "Geert Coulommier",
+        "values": [5,6,4,7,3,8,1],
+        "profile": "chocolateyislove00119922.json"
+    },
+    {
+        "student": "Johan VdB",
+        "values": [2,3,4,3,2,1,10],
+        "profile": "swiftiseasy192837465.json"
+    }
+  ]
+}

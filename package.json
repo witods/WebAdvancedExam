@@ -1,0 +1,26 @@
+{
+  "name": "opgave_wda_pgc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "Wito De Schrijver",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "^4.3.0",
+    "css-loader": "^6.7.4",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.1",
+    "json-loader": "^0.5.7",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.84.1",
+    "webpack-cli": "^5.1.1"
+  },
+  "devDependencies": {
+    "json-loader": "^0.5.7"
+  }
+}

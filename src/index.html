@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Exam WDA 2022-2023</title>
+    <!-- Import your own script here -->
+    <script src="./index.js"></script>
+</head>
+
+<body class="container">
+    <h1>The M.E.N.T.A.L App</h1>
+    <p>Showing the mind of students during this crazy last semester.</p>
+    <hr>
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a id="grouptab" class="nav-link active" aria-current="page" href="#">Group data</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="individualtab" href="#">Individual data</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="formtab" href="#">New data</a>
+        </li>
+        
+    </ul>
+    <br>
+    <div id="group" class="">
+        <p>You can view the groupresults here and edit the results if needed. Save them rework them later.</p>
+        <!-- Table data injected by JS -->
+        <table class="table" id="table">  </table>
+    </div>
+    
+    <div id="individual"  class="hidden">
+        <p>You can view the individualresults here.</p>
+
+        <!-- Select-->
+        <select id="list" class="form-select">
+          <!-- options are injected by JS -->
+        </select>
+        <br><br>
+
+
+        <div id="card-container">
+          <!-- Card - is injected byJS -->
+        </div>
+        
+        <br>
+
+        <canvas id="scorechart" width="400" height="200"></canvas>
+
+    </div>
+
+    <div id="form"  class="hidden">
+        <p>Enter your own data MENTAL data and review them in the individual tab or group results</p>
+
+<!--    Toon onderstaande messages wanneer de data succesvol is of een error gegooid wordt. -->
+        <div class="alert alert-primary hidden" role="alert" id="succesAlert">
+          Your input was succesfull!
+        </div>
+        <div class="alert alert-danger hidden" role="alert" id="errorAlert">
+          Check your data. An error has occured!
+        </div> 
+
+
+
+        <form id="newDataForm">
+          
+            <div class="input-group">
+              <input type="text" id="inputName" class="form-control" placeholder="Name">
+              <input type="number" id="input0" class="form-control" placeholder="February" >
+              <input type="number" id="input1" class="form-control" placeholder="March" >
+              <input type="number" id="input2" class="form-control" placeholder="April" >
+              <input type="number" id="input3" class="form-control" placeholder="May" >
+              <input type="number" id="input4" class="form-control" placeholder="June" >
+              <input type="number" id="input5" class="form-control" placeholder="July" >
+              <input type="number" id="input6" class="form-control" placeholder="August" >
+            </div>          
+          <br>
+          <button type="submit" class="btn btn-primary" id="submit">Submit your data</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

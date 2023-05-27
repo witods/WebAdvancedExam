@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    display: block;
+    min-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* For JS */
+.hidden{
+    display: none;
+}
+
+.hoverPostive:hover{
+    color: white;
+    font-weight: bold;
+    background-color: rgb(88, 173, 88, 0.7);
+    transition: 1s ease-out;
+}
+
+.hoverNegative:hover{
+    color: white;
+    font-weight: bold;
+    background-color: rgba(218, 80, 80, 0.7);
+    transition: 1s ease-out;
+}
